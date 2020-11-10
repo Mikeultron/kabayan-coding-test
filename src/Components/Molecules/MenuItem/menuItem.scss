@@ -1,0 +1,22 @@
+@import '../../../index.scss';
+
+.menu-item{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 5vw;
+  border-bottom: 1px solid $lineColor;
+  cursor: pointer;
+  transition: background-color .5s;
+  &:hover{
+    background-color: #e6e6e6;
+  }
+  .menu-info{
+    .menu-title{
+      font-size: 18px;
+      font-weight: map-get($map: $font-weights, $key: bold);
+    }
+  }
+  i{
+    font-size: 24px;
+  }
+}

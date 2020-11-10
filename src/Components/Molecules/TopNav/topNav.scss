@@ -1,0 +1,18 @@
+@import '../../../index.scss';
+
+.top-nav{
+  position: relative;
+  i{
+    font-size: 24px;
+    position: absolute;
+    top: 20px;
+    left: 5vw;
+    cursor: pointer;
+  }
+  h1{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: map-get($map: $font-weights, $key: bold);
+  }
+}

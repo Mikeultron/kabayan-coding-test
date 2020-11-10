@@ -1,0 +1,31 @@
+.bottom-nav{
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  margin: 5% auto;
+  margin: auto;
+  width: 300px;
+  height: 80px;
+  border: 1px solid #e6e6e6;
+  border-radius: 75px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, .5);
+  background-color: white;
+  z-index: 10;
+  .nav-icons{
+    position: relative;
+    top: 20px;
+    .left-icon{
+      position: absolute;
+      left: 50px;
+      font-size: 32px;
+      cursor: pointer;
+    }
+    .right-icon{
+      position: absolute;
+      right: 50px;
+      font-size: 32px;
+      cursor: pointer;
+    }
+  }
+}

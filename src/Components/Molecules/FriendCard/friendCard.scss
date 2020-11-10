@@ -1,0 +1,33 @@
+@import '../../../index.scss';
+
+.friend-card{
+  display: flex;
+  padding: 20px 5vw;
+  border-bottom: 1px solid $lineColor;
+  .profile{
+    font-size: 50px;
+    padding: 20px;
+    border: 5px solid $borderColor;
+    cursor: pointer;
+  }
+  .friend-info{
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .friend-name{
+      h1{
+        font-size: 18px;
+        padding-bottom: 10px;
+        font-weight: map-get($map: $font-weights, $key: bold);
+      }
+    }
+    .friend-age{
+      h1{
+        font-size: 18px;
+        font-weight: map-get($map: $font-weights, $key: bold);
+        color: $borderColor;
+      }
+    }
+  }
+}

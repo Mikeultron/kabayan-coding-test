@@ -1,0 +1,23 @@
+@import '../../index.scss';
+
+.user-profile-page{
+  .container{
+    height: 87vh;
+    @include flexCenter(column);
+    .profile{
+      margin-top: 35px;
+      font-size: 80px;
+      padding: 20px;
+    }
+    input{
+      margin-top: 60px;
+      padding: 10px 20px;
+    }
+    button{
+      margin-top: 25px;
+      padding: 10px 90px;
+      font-size: 18px;
+      font-weight: map-get($map: $font-weights, $key: bold);
+    }
+  }
+}

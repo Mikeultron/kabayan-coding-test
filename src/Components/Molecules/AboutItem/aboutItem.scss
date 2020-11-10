@@ -1,0 +1,20 @@
+@import '../../../index.scss';
+
+.about-item{
+  .about-info{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 5vw;
+    border-bottom: 1px solid $lineColor;
+    .about-mute{
+      font-size: 14px;
+      padding-bottom: 5px;
+      color: #3F3D56;
+      font-weight: map-get($map: $font-weights, $key: regular);
+    }
+    .about-title{
+      font-size: 18px;
+      font-weight: map-get($map: $font-weights, $key: bold);
+    }
+  }
+}

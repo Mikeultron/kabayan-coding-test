@@ -1,0 +1,13 @@
+.dashboard-page{
+  margin: auto;
+  max-width: 555px;
+  .container{
+    .profile{
+      cursor: pointer;
+    }
+    .posts-wrapper{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}

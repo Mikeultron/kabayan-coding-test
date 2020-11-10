@@ -1,0 +1,10 @@
+@import '../../../index.scss';
+
+button{
+  background-color: $borderColor;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

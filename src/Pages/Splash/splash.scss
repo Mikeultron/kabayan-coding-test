@@ -1,0 +1,28 @@
+@import '../../index.scss';
+
+.home-page{
+  height: 100vh;
+  @include flexCenter(column);
+  .container{
+    @include flexCenter(column);
+    width: 70%;
+    .content-title{
+      text-align: center;
+      h1{
+        font-weight: map-get($map: $font-weights, $key: bold);
+        font-size: 32px;
+      }
+    }
+    .illustration{
+      margin-top: 40px;
+    }
+    button{
+      margin-top: 60px;
+      padding: 10px 20px;
+      font-size: 18px;
+      max-width: 400px;
+      width: 100%;
+      font-weight: map-get($map: $font-weights, $key: bold);
+    }
+  }
+}

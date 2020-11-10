@@ -1,0 +1,10 @@
+@import '../../../index.scss';
+
+input{
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid $lineColor;
+  font-weight: map-get($map: $font-weights, $key: bold);
+}

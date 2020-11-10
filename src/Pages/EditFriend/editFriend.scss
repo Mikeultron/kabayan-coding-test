@@ -1,0 +1,30 @@
+@import '../../index.scss';
+
+.add-friend-page{
+  .container{
+    @include flexCenter(column);
+    .content-title{
+      h1{
+        font-weight: map-get($map: $font-weights, $key: bold);
+        font-size: 18px;
+      }
+    }
+    .profile{
+      margin-top: 40px;
+      margin-bottom: 40px;
+      font-size: 80px;
+      padding: 20px;
+    }
+    input{
+      margin-top: 20px;
+      padding: 10px 20px;
+    }
+    button{
+      margin-top: 50px;
+      padding: 10px 110px;
+      font-size: 18px;
+      max-width: 500px;
+      font-weight: map-get($map: $font-weights, $key: bold);
+    }
+  }
+}
